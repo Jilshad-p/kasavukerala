@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kasavu Kerala - Kerala's No.1 Kasavu Saree Brand</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: { primary: "#D4AF37", secondary: "#382F1D" },
+      borderRadius: {
+        none: "0px",
+        sm: "4px",
+        DEFAULT: "8px",
+        md: "12px",
+        lg: "16px",
+        xl: "20px",
+        "2xl": "24px",
+        "3xl": "32px",
+        full: "9999px",
+        button: "8px",
+      },
+    },
+  },
+};
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+<link rel="stylesheet" href="styles/styles.css">
+
+</head>
+
+<body>
+<!-- Header -->
+<header class="fixed w-full bg-transparent z-50 transition-all duration-300" id="header">
+    <div class="container mx-auto px-4 sm:px-6 py-3 sm:py-4 flex justify-between items-center">
+        <a href="#" class="text-2xl sm:text-3xl font-['Pacifico'] text-primary">Kasavu Kerala</a>
+        <nav class="hidden md:flex space-x-6 lg:space-x-8">
+            <a href="#home" class="nav-link active text-secondary hover:text-primary transition-colors">Home</a>
+            <a href="#about" class="nav-link text-secondary hover:text-primary transition-colors">About</a>
+            <a href="#gallery" class="nav-link text-secondary hover:text-primary transition-colors">Gallery</a>
+            <a href="#contact" class="nav-link text-secondary hover:text-primary transition-colors">Contact</a>
+        </nav>
+        <div class="flex items-center space-x-4">
+            <div class="relative">
+                <button class="flex items-center space-x-1 text-secondary hover:text-primary transition-colors !rounded-button whitespace-nowrap">
+                    <span>EN</span>
+                    <div class="w-4 h-4 flex items-center justify-center">
+                        <i class="ri-arrow-down-s-line"></i>
+                    </div>
+                </button>
+            </div>
+            <button class="md:hidden w-10 h-10 flex items-center justify-center text-secondary hover:text-primary transition-colors">
+                <i class="ri-menu-line text-xl"></i>
+            </button>
+        </div>
+    </div>
+</header>
+<!-- Mobile Menu -->
+<div class="fixed inset-0 bg-white z-50 transform translate-x-full transition-transform duration-300 md:hidden" id="mobileMenu">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <a href="#" class="text-3xl font-['Pacifico'] text-primary">Kasavu Kerala</a>
+        <button class="w-10 h-10 flex items-center justify-center text-secondary hover:text-primary transition-colors" id="closeMenu">
+            <i class="ri-close-line text-xl"></i>
+        </button>
+    </div>
+    <div class="container mx-auto px-6 py-8">
+        <nav class="flex flex-col space-y-6">
+            <a href="#home" class="text-xl text-secondary hover:text-primary transition-colors py-2 border-b border-gray-100">Home</a>
+            <a href="#about" class="text-xl text-secondary hover:text-primary transition-colors py-2 border-b border-gray-100">About</a>
+            <a href="#gallery" class="text-xl text-secondary hover:text-primary transition-colors py-2 border-b border-gray-100">Gallery</a>
+            <a href="#contact" class="text-xl text-secondary hover:text-primary transition-colors py-2 border-b border-gray-100">Contact</a>
+        </nav>
+    </div>
+</div>
+<!-- Main Content -->
+
+<main>
+<!-- Hero Section -->
+    <section id="home" class="hero-section min-h-[80vh] sm:min-h-screen flex items-center">
+        <div class="container mx-auto px-4 sm:px-6 py-12 sm:py-20">
+            <div class="w-full md:w-1/2 lg:w-2/5">
+                <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight text-secondary">Kerala's No.1 Kasavu Saree Brand</h1>
+                <p class="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 text-secondary/80">Authentic, Elegant, Timeless</p>
+                <div class="flex flex-col sm:flex-row gap-3 sm:gap-4">
+                    <a href="#gallery" class="px-8 py-3 bg-primary text-white font-medium !rounded-button whitespace-nowrap hover:bg-primary/90 transition-colors inline-block text-center">Explore Collection</a>
+                    <a href="#about" class="px-8 py-3 border-2 border-primary text-primary font-medium !rounded-button whitespace-nowrap hover:bg-primary/10 transition-colors inline-block text-center">Our Story</a>
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 scroll-indicator">
+            <div class="w-8 h-12 flex items-center justify-center border-2 border-primary !rounded-full">
+                <div class="w-2 h-2 bg-primary rounded-full"></div>
+            </div>
+        </div>
+    </section>
+<!-- Featured Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-secondary">Handcrafted Excellence</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Discover the rich heritage and exquisite craftsmanship behind every Kasavu Kerala saree.</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10">
+                <div class="text-center px-4">
+                    <div class="w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center mx-auto mb-4 sm:mb-6 rounded-full bg-primary/10">
+                        <i class="ri-hand-heart-line text-primary text-2xl sm:text-3xl"></i>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-secondary">Handwoven</h3>
+                    <p class="text-sm sm:text-base text-gray-600">Each saree is meticulously handcrafted by skilled artisans using traditional techniques passed down through generations.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-20 h-20 flex items-center justify-center mx-auto mb-6 rounded-full bg-primary/10">
+                        <i class="ri-award-line text-primary text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-secondary">Pure Materials</h3>
+                    <p class="text-gray-600">We use only the finest cotton and pure zari gold threads to create sarees of exceptional quality and longevity.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-20 h-20 flex items-center justify-center mx-auto mb-6 rounded-full bg-primary/10">
+                        <i class="ri-leaf-line text-primary text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-secondary">Sustainable</h3>
+                    <p class="text-gray-600">Our commitment to ethical practices ensures that our sarees are environmentally friendly and support local communities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- About Section -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center gap-8 sm:gap-12">
+                <div class="w-full md:w-1/2">
+                    <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6 text-secondary">Our Heritage</h2>
+                    <p class="text-base sm:text-lg text-gray-600 mb-4 sm:mb-6">Founded in 1975, Kasavu Kerala has been at the forefront of preserving and promoting the traditional art of Kasavu saree weaving. Our journey began in a small village in Balaramapuram, where a group of passionate weavers came together with a vision to keep this cultural treasure alive.</p>
+                    <p class="text-lg text-gray-600 mb-8">Today, we are proud to be Kerala's leading Kasavu saree brand, known for our commitment to authenticity, quality, and innovation. Our sarees are worn with pride during Onam celebrations, weddings, and special occasions throughout Kerala and beyond.</p>
+                    <a href="#" class="px-8 py-3 bg-primary text-white font-medium !rounded-button whitespace-nowrap hover:bg-primary/90 transition-colors inline-block">Read Our Full Story</a>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <div class="relative">
+                        <img src="https://readdy.ai/api/search-image?query=Skilled%20artisan%20weaving%20traditional%20Kerala%20Kasavu%20saree%20on%20handloom%2C%20close-up%20of%20hands%20working%20with%20gold%20thread%20and%20white%20fabric%2C%20workshop%20setting%20with%20natural%20light%2C%20authentic%20craftsmanship%2C%20documentary%20style%20photography%2C%20cultural%20heritage%20preservation&width=600&height=800&seq=3&orientation=portrait" alt="Artisan weaving Kasavu saree" class="w-full h-auto rounded-lg shadow-xl">
+                        <div class="absolute -bottom-6 -left-6 w-32 h-32 bg-primary rounded-lg flex items-center justify-center p-4">
+                            <p class="text-white text-center font-bold">
+                                <span class="block text-3xl">20</span>
+                                <span class="text-sm">Years of Excellence</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Timeline Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-secondary">Our Journey</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">From humble beginnings to becoming Kerala's most trusted Kasavu saree brand.</p>
+            </div>
+            <div class="relative">
+                <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-primary/20"></div>
+                <div class="relative z-10">
+                    <div class="flex flex-col md:flex-row items-center mb-16">
+                        <div class="w-full md:w-1/2 md:pr-12 text-right mb-8 md:mb-0">
+                            <h3 class="text-2xl font-bold mb-2 text-secondary">1975</h3>
+                            <p class="text-gray-600">Kasavu Kerala was founded by Anand Menon in Balaramapuram with just 5 weavers.</p>
+                        </div>
+                        <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center z-20 mx-4">
+                            <div class="w-4 h-4 bg-white rounded-full"></div>
+                        </div>
+                        <div class="w-full md:w-1/2 md:pl-12 hidden md:block"></div>
+                    </div>
+                    <div class="flex flex-col md:flex-row items-center mb-16">
+                        <div class="w-full md:w-1/2 md:pr-12 text-right hidden md:block"></div>
+                            <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center z-20 mx-4">
+                                <div class="w-4 h-4 bg-white rounded-full"></div>
+                            </div>
+                        <div class="w-full md:w-1/2 md:pl-12 mb-8 md:mb-0">
+                            <h3 class="text-2xl font-bold mb-2 text-secondary">1985</h3>
+                            <p class="text-gray-600">Opened our first flagship store in Trivandrum, expanding our reach to customers directly.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:flex-row items-center mb-16">
+                        <div class="w-full md:w-1/2 md:pr-12 text-right mb-8 md:mb-0">
+                            <h3 class="text-2xl font-bold mb-2 text-secondary">1998</h3>
+                            <p class="text-gray-600">Received the State Handicraft Award for excellence in preserving traditional weaving techniques.</p>
+                        </div>
+                        <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center z-20 mx-4">
+                            <div class="w-4 h-4 bg-white rounded-full"></div>
+                        </div>
+                        <div class="w-full md:w-1/2 md:pl-12 hidden md:block"></div>
+                    </div>
+                    <div class="flex flex-col md:flex-row items-center">
+                        <div class="w-full md:w-1/2 md:pr-12 text-right hidden md:block"></div>
+                        <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center z-20 mx-4">
+                            <div class="w-4 h-4 bg-white rounded-full"></div>
+                        </div>
+                        <div class="w-full md:w-1/2 md:pl-12">
+                            <h3 class="text-2xl font-bold mb-2 text-secondary">2025</h3>
+                            <p class="text-gray-600">Today, we have a community of over 200 artisans and 15 stores across South India, continuing our mission to preserve and promote Kerala's textile heritage.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Gallery Section -->
+    <section id="gallery" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4 sm:px-6">
+            <div class="text-center mb-8 sm:mb-16">
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4 text-secondary">Our Collection</h2>
+                <p class="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">Explore our exquisite range of handcrafted Kasavu sarees.</p>
+            </div>
+            <div class="flex justify-center mb-6 sm:mb-10 overflow-x-auto pb-2">
+                <div class="inline-flex bg-white p-1 rounded-full shadow-sm" id="filterButtons">
+                    <button data-category="all" class="filter-btn px-4 sm:px-6 py-2 rounded-full bg-primary text-white !rounded-button whitespace-nowrap text-sm sm:text-base">All</button>
+                    <button data-category="traditional" class="filter-btn px-4 sm:px-6 py-2 rounded-full text-gray-600 hover:bg-gray-100 !rounded-button whitespace-nowrap text-sm sm:text-base">Traditional</button>
+                    <button data-category="contemporary" class="filter-btn px-4 sm:px-6 py-2 rounded-full text-gray-600 hover:bg-gray-100 !rounded-button whitespace-nowrap text-sm sm:text-base">Contemporary</button>
+                    <button data-category="bridal" class="filter-btn px-4 sm:px-6 py-2 rounded-full text-gray-600 hover:bg-gray-100 !rounded-button whitespace-nowrap text-sm sm:text-base">Bridal</button>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8" id="galleryGrid">
+                <div class="gallery-item rounded-lg overflow-hidden shadow-lg" data-category="traditional">
+                    <img src="https://readdy.ai/api/search-image?query=Traditional%20Kerala%20Kasavu%20saree%20with%20gold%20border%2C%20draped%20elegantly%20on%20model%2C%20professional%20fashion%20photography%2C%20studio%20lighting%2C%20white%20background%2C%20detailed%20fabric%20texture%20visible%2C%20gold%20zari%20work%20highlighted%2C%20minimalist%20composition&width=600&height=800&seq=4&orientation=portrait" alt="Traditional Kasavu Saree" class="w-full h-80 object-cover object-top">
+                    <div class="p-4 bg-white">
+                        <h3 class="text-lg font-bold text-secondary">Classic Kasavu</h3>
+                        <p class="text-gray-600">Traditional pure white saree with golden border</p>
+                    </div>
+                </div>
+                <div class="gallery-item rounded-lg overflow-hidden shadow-lg" data-category="contemporary">
+                    <img src="https://readdy.ai/api/search-image?query=Contemporary%20Kerala%20Kasavu%20saree%20with%20modern%20design%20elements%2C%20off-white%20fabric%20with%20intricate%20gold%20border%20pattern%2C%20draped%20on%20model%2C%20outdoor%20natural%20lighting%2C%20fashion%20photography%2C%20elegant%20pose%2C%20detailed%20fabric%20texture%20visible&width=600&height=800&seq=5&orientation=portrait" alt="Contemporary Kasavu Saree" class="w-full h-80 object-cover object-top">
+                    <div class="p-4 bg-white">
+                        <h3 class="text-lg font-bold text-secondary">Contemporary Elegance</h3>
+                        <p class="text-gray-600">Modern interpretation with intricate patterns</p>
+                    </div>
+                </div>
+                <div class="gallery-item rounded-lg overflow-hidden shadow-lg" data-category="bridal">
+                    <img src="https://readdy.ai/api/search-image?query=Bridal%20Kerala%20Kasavu%20saree%20with%20elaborate%20gold%20border%20and%20embellishments%2C%20cream%20colored%20fabric%2C%20worn%20by%20bride%20with%20traditional%20Kerala%20jewelry%2C%20professional%20wedding%20photography%2C%20soft%20lighting%2C%20detailed%20fabric%20texture%20visible&width=600&height=800&seq=6&orientation=portrait" alt="Bridal Kasavu Saree" class="w-full h-80 object-cover object-top">
+                    <div class="p-4 bg-white">
+                        <h3 class="text-lg font-bold text-secondary">Bridal Collection</h3>
+                        <p class="text-gray-600">Luxurious sarees for special occasions</p>
+                    </div>
+                </div>
+                <div class="gallery-item rounded-lg overflow-hidden shadow-lg" data-category="traditional">
+                    <img src="https://readdy.ai/api/search-image?query=Detailed%20close-up%20of%20Kerala%20Kasavu%20saree%20gold%20border%2C%20intricate%20zari%20work%2C%20high%20detail%20textile%20photography%2C%20macro%20lens%2C%20showing%20craftsmanship%20and%20thread%20work%2C%20studio%20lighting%2C%20white%20fabric%20with%20gold%20thread&width=600&height=800&seq=7&orientation=portrait" alt="Kasavu Border Detail" class="w-full h-80 object-cover object-top">
+                    <div class="p-4 bg-white">
+                        <h3 class="text-lg font-bold text-secondary">Artisan Detail</h3>
+                        <p class="text-gray-600">Close-up of our handcrafted borders</p>
+                    </div>
+                </div>
+                <div class="gallery-item rounded-lg overflow-hidden shadow-lg" data-category="contemporary">
+                    <img src="https://readdy.ai/api/search-image?query=Kerala%20Kasavu%20saree%20with%20colorful%20embroidery%20accents%2C%20off-white%20fabric%20with%20gold%20border%20and%20colored%20thread%20work%2C%20draped%20on%20model%2C%20outdoor%20photography%20in%20natural%20setting%2C%20fashion%20editorial%20style&width=600&height=800&seq=8&orientation=portrait" alt="Colorful Kasavu Saree" class="w-full h-80 object-cover object-top">
+                    <div class="p-4 bg-white">
+                        <h3 class="text-lg font-bold text-secondary">Vibrant Fusion</h3>
+                        <p class="text-gray-600">Traditional Kasavu with colorful accents</p>
+                    </div>
+                </div>
+                <div class="gallery-item rounded-lg overflow-hidden shadow-lg" data-category="traditional">
+                    <img src="https://readdy.ai/api/search-image?query=Kerala%20Kasavu%20saree%20with%20simple%20elegant%20design%2C%20pure%20white%20fabric%20with%20thin%20gold%20border%2C%20minimalist%20aesthetic%2C%20draped%20on%20model%2C%20clean%20background%2C%20professional%20fashion%20photography%2C%20showing%20simplicity%20and%20elegance&width=600&height=800&seq=9&orientation=portrait" alt="Minimalist Kasavu Saree" class="w-full h-80 object-cover object-top">
+                    <div class="p-4 bg-white">
+                        <h3 class="text-lg font-bold text-secondary">Minimalist Charm</h3>
+                        <p class="text-gray-600">Subtle elegance for everyday sophistication</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Testimonial Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-secondary">Google Reviews</h2>
+                <div class="flex items-center justify-center gap-4 mb-4">
+                    <div class="flex items-center">
+                        <div class="w-8 h-8 flex items-center justify-center">
+                            <i class="ri-google-fill text-2xl text-[#4285F4]"></i>
+                        </div>
+                        <div class="flex items-center ml-2">
+                            <span class="text-3xl font-bold text-secondary">4.7</span>
+                            <div class="text-primary ml-2">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="text-gray-500">|</span>
+                    <span class="text-gray-600">Based on 1,419 reviews</span>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="overflow-hidden max-w-3xl mx-auto">
+                    <div class="flex transition-transform duration-300 ease-in-out" id="reviewsContainer">
+                        <div class="w-full flex-shrink-0">
+                            <div class="bg-gray-50 p-6 sm:p-8 rounded-lg shadow-sm h-full max-w-2xl mx-auto">
+                                <div class="flex items-center justify-between mb-4">
+                                    <div class="flex items-center">
+                                        <img src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20young%20Indian%20woman%20with%20traditional%20jewelry%2C%20smiling%2C%20natural%20lighting%2C%20studio%20portrait&width=100&height=100&seq=10&orientation=squarish" alt="Reviewer" class="w-12 h-12 rounded-full object-cover mr-4">
+                                        <div>
+                                            <h4 class="font-bold text-secondary">Shalini Nair</h4>
+                                            <p class="text-sm text-gray-500">Local Guide · 127 reviews</p>
+                                        </div>
+                                    </div>
+                                    <div class="w-8 h-8 flex items-center justify-center">
+                                        <i class="ri-google-fill text-xl text-[#4285F4]"></i>
+                                    </div>
+                                </div>
+                                <div class="flex items-center mb-3">
+                                    <div class="text-primary">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                    </div>
+                                    <span class="text-gray-400 text-sm ml-2">3 months ago</span>
+                                </div>
+                                <p class="text-gray-600 mb-4">"Excellent service and quality products. The staff is very friendly and helpful. They have a wide variety of collections. The prices are reasonable compared to other shops. I would definitely recommend this place for traditional Kerala sarees."</p>
+                                <div class="flex items-center text-gray-400 text-sm">
+                                    <i class="ri-thumb-up-line mr-1"></i>
+                                    <span>Helpful (42)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full flex-shrink-0">
+                            <div class="bg-gray-50 p-6 sm:p-8 rounded-lg shadow-sm h-full max-w-2xl mx-auto">
+                                <div class="flex items-center justify-between mb-4">
+                                    <div class="flex items-center">
+                                        <img src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20middle-aged%20Indian%20woman%20wearing%20traditional%20silk%20saree%2C%20elegant%20pose%2C%20studio%20portrait&width=100&height=100&seq=11&orientation=squarish" alt="Reviewer" class="w-12 h-12 rounded-full object-cover mr-4">
+                                        <div>
+                                            <h4 class="font-bold text-secondary">Reshma Suresh</h4>
+                                            <p class="text-sm text-gray-500">Local Guide · 89 reviews</p>
+                                        </div>
+                                    </div>
+                                    <div class="w-8 h-8 flex items-center justify-center">
+                                        <i class="ri-google-fill text-xl text-[#4285F4]"></i>
+                                    </div>
+                                </div>
+                                <div class="flex items-center mb-3">
+                                    <div class="text-primary">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                    </div>
+                                    <span class="text-gray-400 text-sm ml-2">1 month ago</span>
+                                </div>
+                                <p class="text-gray-600 mb-4">"One of the best places to buy traditional Kerala sarees. Good collection and reasonable prices. The staff is very helpful and patient. They have both traditional and modern designs. The quality of the sarees is really good."</p>
+                                <div class="flex items-center text-gray-400 text-sm">
+                                    <i class="ri-thumb-up-line mr-1"></i>
+                                    <span>Helpful (35)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full flex-shrink-0">
+                            <div class="bg-gray-50 p-6 sm:p-8 rounded-lg shadow-sm h-full max-w-2xl mx-auto">
+                                    <div class="flex items-center justify-between mb-4">
+                                        <div class="flex items-center">
+                                            <img src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20a%20young%20Indian%20professional%20woman%20in%20modern%20business%20attire%2C%20confident%20smile%2C%20office%20setting&width=100&height=100&seq=12&orientation=squarish" alt="Reviewer" class="w-12 h-12 rounded-full object-cover mr-4">
+                                            <div>
+                                                <h4 class="font-bold text-secondary">Anjali Menon</h4>
+                                                <p class="text-sm text-gray-500">156 reviews</p>
+                                            </div>
+                                        </div>
+                                        <div class="w-8 h-8 flex items-center justify-center">
+                                            <i class="ri-google-fill text-xl text-[#4285F4]"></i>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center mb-3">    
+                                        <div class="text-primary">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                    </div>
+                                <span class="text-gray-400 text-sm ml-2">2 weeks ago</span>
+                                </div>
+                                <p class="text-gray-600 mb-4">"Great collection of traditional Kerala sarees. The staff is very friendly and helpful. They have a good variety of designs and colors. The quality of the sarees is excellent. Highly recommend this place for anyone looking for authentic Kerala sarees."</p>
+                                <div class="flex items-center text-gray-400 text-sm">
+                                    <i class="ri-thumb-up-line mr-1"></i>
+                                    <span>Helpful (28)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center space-x-4 mt-8">
+                    <button id="prevReview" class="review-nav-btn w-10 h-10 flex items-center justify-center rounded-full border-2 border-primary text-primary hover:bg-primary hover:text-white active:scale-95 transition-all !rounded-button">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </button>
+                    <div class="flex space-x-2" id="reviewDots">
+                        <button class="w-2 h-2 rounded-full bg-primary" data-index="0"></button>
+                        <button class="w-2 h-2 rounded-full bg-gray-300" data-index="1"></button>
+                        <button class="w-2 h-2 rounded-full bg-gray-300" data-index="2"></button>
+                    </div>
+                    <button id="nextReview" class="review-nav-btn w-10 h-10 flex items-center justify-center rounded-full border-2 border-primary text-primary hover:bg-primary hover:text-white active:scale-95 transition-all !rounded-button">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </button>
+                </div>
+                <div class="text-center mt-12">
+                    <a href="https://g.co/kgs/ZNFtMa4" data-readdy="true" class="inline-flex items-center px-6 py-3 border-2 border-primary text-primary font-medium !rounded-button whitespace-nowrap hover:bg-primary/10 transition-colors">
+                        <i class="ri-google-fill mr-2"></i>
+                        View All Reviews on Google
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-secondary">Get In Touch</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">We'd love to hear from you. Reach out to us for any inquiries or to visit our stores.</p>
+            </div>
+            <div class="flex flex-col lg:flex-row gap-12">
+                <div class="w-full lg:w-1/2">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" id="name" class="w-full px-4 py-3 border-2 border-gray-200 rounded focus:border-primary focus:outline-none bg-white" placeholder=" ">
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" class="w-full px-4 py-3 border-2 border-gray-200 rounded focus:border-primary focus:outline-none bg-white" placeholder=" ">
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" class="w-full px-4 py-3 border-2 border-gray-200 rounded focus:border-primary focus:outline-none bg-white" placeholder=" ">
+                            <label for="phone">Phone Number</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="4" class="w-full px-4 py-3 border-2 border-gray-200 rounded focus:border-primary focus:outline-none bg-white" placeholder=" "></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <label class="custom-checkbox mb-6 block">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            <span class="ml-2">Subscribe to our newsletter for updates on new collections and events</span>
+                        </label>
+                        <div id="toast" class="fixed top-4 right-4 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg transform translate-x-full transition-transform duration-300 z-50"></div>
+                        <button type="submit" id="submitButton" class="w-full px-8 py-3 bg-primary text-white font-medium !rounded-button whitespace-nowrap hover:bg-primary/90 transition-colors">Send Message</button>
+                    </form>
+                </div>
+                <div class="w-full lg:w-1/2">
+                    <div class="h-64 mb-8 rounded-lg overflow-hidden">
+                        <img src="https://public.readdy.ai/gen_page/map_placeholder_1280x720.png" alt="Map" class="w-full h-full object-cover">
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div>
+                            <h3 class="text-xl font-bold mb-4 text-secondary">Contact Information</h3>
+                            <ul class="space-y-4">
+                                <li class="flex items-start">
+                                    <div class="w-6 h-6 flex items-center justify-center text-primary mr-3 mt-1">
+                                        <i class="ri-map-pin-line"></i>
+                                    </div>
+                                    <span class="text-gray-600">
+                                        123 MG Road, Balaramapuram<br>
+                                        Thiruvananthapuram, Kerala 695501
+                                    </span>
+                                </li>
+                                <li class="flex items-center">
+                                    <div class="w-6 h-6 flex items-center justify-center text-primary mr-3">
+                                        <i class="ri-phone-line"></i>
+                                    </div>
+                                    <span class="text-gray-600">+91 98765 43210</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <div class="w-6 h-6 flex items-center justify-center text-primary mr-3">
+                                        <i class="ri-mail-line"></i>
+                                    </div>
+                                    <span class="text-gray-600">info@kasavukerala.com</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-4 text-secondary">Store Hours</h3>
+                            <ul class="space-y-2">
+                                <li class="flex justify-between">
+                                    <span class="text-gray-600">Monday - Saturday</span>
+                                    <span class="text-gray-600 font-medium">10:00 AM - 8:00 PM</span>
+                                </li>
+                                <li class="flex justify-between">
+                                    <span class="text-gray-600">Sunday</span>
+                                    <span class="text-gray-600 font-medium">11:00 AM - 6:00 PM</span>
+                                </li>
+                            </ul>
+                            <h3 class="text-xl font-bold mt-8 mb-4 text-secondary">Follow Us</h3>
+                            <div class="flex space-x-4">
+                                <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border-2 border-gray-200 text-gray-600 social-icon">
+                                    <i class="ri-facebook-fill"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border-2 border-gray-200 text-gray-600 social-icon">
+                                    <i class="ri-instagram-line"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border-2 border-gray-200 text-gray-600 social-icon">
+                                    <i class="ri-pinterest-line"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full border-2 border-gray-200 text-gray-600 social-icon">
+                                    <i class="ri-youtube-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Newsletter Section -->
+    <section class="py-20 bg-primary/10">
+        <div class="container mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-secondary">Stay Connected</h2>
+                <p class="text-lg text-gray-600 mb-8">Subscribe to our newsletter for updates on new collections, special offers, and cultural insights.</p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <input type="email" placeholder="Your email address" class="flex-grow px-4 py-3 border-none rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
+                    <button class="px-8 py-3 bg-primary text-white font-medium !rounded-button whitespace-nowrap hover:bg-primary/90 transition-colors">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-secondary text-white">
+    <div class="kerala-border h-4"></div>
+    <div class="container mx-auto px-6 py-12">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div>
+                <a href="#" class="text-2xl sm:text-3xl font-['Pacifico'] text-primary mb-4 sm:mb-6 block">Kasavu Kerala</a>
+                <p class="text-gray-300 mb-6">Preserving the rich heritage of Kerala's traditional handloom sarees since 1975.</p>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-300 hover:text-primary transition-colors social-icon">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+                    <a href="#" class="text-gray-300 hover:text-primary transition-colors social-icon">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="#" class="text-gray-300 hover:text-primary transition-colors social-icon">
+                        <i class="ri-pinterest-line"></i>
+                    </a>    
+                    <a href="#" class="text-gray-300 hover:text-primary transition-colors social-icon">
+                        <i class="ri-youtube-line"></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-lg font-bold mb-6">Quick Links</h3>
+                <ul class="space-y-3">
+                    <li><a href="#home" class="text-gray-300 hover:text-primary transition-colors">Home</a></li>
+                    <li><a href="#about" class="text-gray-300 hover:text-primary transition-colors">About Us</a></li>
+                    <li><a href="#gallery" class="text-gray-300 hover:text-primary transition-colors">Collection</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-primary transition-colors">Our Stores</a></li>
+                    <li><a href="#contact" class="text-gray-300 hover:text-primary transition-colors">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-bold mb-6">Collections</h3>
+                <ul class="space-y-3">
+                    <li><a href="#" class="text-gray-300 hover:text-primary transition-colors">Traditional Kasavu</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-primary transition-colors">Contemporary Designs</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-primary transition-colors">Bridal Collection</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-primary transition-colors">Festival Specials</a></li>
+                    <li><a href="#" class="text-gray-300 hover:text-primary transition-colors">Gift Sets</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-bold mb-6">Contact</h3>
+                <ul class="space-y-3">
+                    <li class="flex items-start">
+                        <div class="w-5 h-5 flex items-center justify-center text-primary mr-3 mt-1">
+                            <i class="ri-map-pin-line"></i>
+                        </div>
+                        <span class="text-gray-300">
+                            123 MG Road, Balaramapuram<br>
+                            Thiruvananthapuram, Kerala 695501
+                        </span>
+                    </li>
+                    <li class="flex items-center">
+                        <div class="w-5 h-5 flex items-center justify-center text-primary mr-3">
+                            <i class="ri-phone-line"></i>
+                        </div>
+                        <span class="text-gray-300">+91 9947301015</span>
+                    </li>
+                    <li class="flex items-center">
+                        <div class="w-5 h-5 flex items-center justify-center text-primary mr-3">
+                            <i class="ri-mail-line"></i>
+                        </div>
+                        <span class="text-gray-300">info@kasavukerala.com</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="border-t border-gray-700">
+        <div class="container mx-auto px-6 py-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">&copy; 2025 Kasavu Kerala. All rights reserved.</p>
+                <div class="flex items-center space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-primary transition-colors">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-primary transition-colors">Terms of Service</a>
+                    <div class="flex items-center space-x-2">
+                        <i class="ri-visa-line text-gray-400"></i>
+                        <i class="ri-mastercard-line text-gray-400"></i>
+                        <i class="ri-paypal-line text-gray-400"></i>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>

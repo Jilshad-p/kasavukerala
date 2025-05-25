@@ -123,5 +123,10 @@ input:focus + label, textarea:focus + label {
     .hero-section {
         background-image: linear-gradient(to right, rgba(253, 251, 247, 0.9) 40%, rgba(253, 251, 247, 0.5) 70%, rgba(253, 251, 247, 0.2) 100%), url('https://readdy.ai/api/search-image?query=Beautiful%20Kerala%20Kasavu%20saree%20draped%20elegantly%2C%20with%20gold%20border%20threads%20shimmering%20in%20soft%20light.%20Natural%20setting%20with%20palm%20trees%2C%20backwaters%2C%20and%20traditional%20Kerala%20architecture%20in%20background.%20Soft%20focus%2C%20dreamy%20atmosphere%2C%20golden%20hour%20lighting&width=768&height=1024&seq=1&orientation=portrait');
     }
-
+    .scroll-indicator{
+        display: none;
+    }
+    .fea{
+        display: none;
+    }
 }

@@ -452,3 +452,42 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   });
+document.addEventListener("scroll", function () {
+  document.querySelectorAll("section").forEach((el) => {
+    if (el.getBoundingClientRect().top < window.innerHeight - 100) {
+      el.classList.add("visible");
+    }
+  });
+});
+
+window.addEventListener("load", function () {
+  document.getElementById("preloader").classList.add("fade-out");
+});
+document.addEventListener("DOMContentLoaded", function() {
+  // Section reveal (already present)
+  const sections = document.querySelectorAll("section");
+  const revealOnScroll = () => {
+    sections.forEach(section => {
+      const rect = section.getBoundingClientRect();
+      if(rect.top < window.innerHeight * 0.85) {
+        section.classList.add("visible");
+      }
+    });
+  };
+  window.addEventListener("scroll", revealOnScroll);
+  revealOnScroll();
+
+  // Gallery item animation
+  const galleryItems = document.querySelectorAll('.gallery-item');
+  const galleryObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add('visible');
+      } else {
+        entry.target.classList.remove('visible');
+      }
+    });
+  }, { threshold: 0.2 });
+
+  galleryItems.forEach(item => galleryObserver.observe(item));
+});
